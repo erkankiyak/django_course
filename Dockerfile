@@ -3,7 +3,7 @@ FROM python:3.12-slim
 
 RUN apt-get update
 
-RUN apt-get install python3-dev build-essential -python3
+RUN apt-get install python3-dev build-essential -y
 
 # pip requirements
 RUN pip install --upgrade pip
